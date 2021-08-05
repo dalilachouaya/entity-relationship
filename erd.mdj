@@ -1739,9 +1739,9 @@
 										"$ref": "AAAAAAF7FqruMZB+YNU="
 									},
 									"font": "Arial;13;0",
-									"left": 616,
+									"left": 604,
 									"top": 260,
-									"width": 31.43994140625,
+									"width": 54.57080078125,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -1749,7 +1749,7 @@
 										"$ref": "AAAAAAF7FqruMpCC05Y="
 									},
 									"edgePosition": 1,
-									"text": "+own"
+									"text": "+manage"
 								},
 								{
 									"_type": "EdgeLabelView",
@@ -2317,7 +2317,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF7FoczL4gBMSg="
 							},
-							"name": "Member_id"
+							"name": "Member_id",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2325,7 +2326,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF7FoczL4gBMSg="
 							},
-							"name": "firstName"
+							"name": "firstName",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2333,7 +2335,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF7FoczL4gBMSg="
 							},
-							"name": "lastName"
+							"name": "lastName",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2341,7 +2344,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF7FoczL4gBMSg="
 							},
-							"name": "dataOfBirth"
+							"name": "dataOfBirth",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2349,7 +2353,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF7FoczL4gBMSg="
 							},
-							"name": "gender"
+							"name": "gender",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2357,7 +2362,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF7FoczL4gBMSg="
 							},
-							"name": "adress"
+							"name": "adress",
+							"type": ""
 						}
 					]
 				},
@@ -2375,7 +2381,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF7FpDdWom9R7c="
 							},
-							"name": "typeSport"
+							"name": "typeSport",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2383,7 +2390,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF7FpDdWom9R7c="
 							},
-							"name": "Schedule"
+							"name": "Schedule",
+							"type": ""
 						}
 					]
 				},
@@ -2433,7 +2441,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF7Fp8C1YwxMts="
 							},
-							"name": "Name"
+							"name": "Name",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2441,7 +2450,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF7Fp8C1YwxMts="
 							},
-							"name": "Adress"
+							"name": "Adress",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2449,7 +2459,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF7Fp8C1YwxMts="
 							},
-							"name": "telephoneNumber"
+							"name": "telephoneNumber",
+							"type": ""
 						}
 					]
 				},
@@ -2499,7 +2510,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF7FqKO0o1HnGc="
 							},
-							"name": "lastName"
+							"name": "lastName",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2507,7 +2519,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF7FqKO0o1HnGc="
 							},
-							"name": "firstName"
+							"name": "firstName",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2515,7 +2528,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF7FqKO0o1HnGc="
 							},
-							"name": "age"
+							"name": "age",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2523,7 +2537,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF7FqKO0o1HnGc="
 							},
-							"name": "specialty"
+							"name": "specialty",
+							"type": ""
 						}
 					]
 				},
@@ -2541,7 +2556,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF7FqoB6Y9WCCg="
 							},
-							"name": "own",
+							"name": "manage",
 							"end1": {
 								"_type": "UMLAssociationEnd",
 								"_id": "AAAAAAF7FqruMZB/zd8=",
@@ -2573,7 +2588,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF7FqoB6Y9WCCg="
 							},
-							"name": "Owner_id"
+							"name": "Owner_id",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2581,7 +2597,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF7FqoB6Y9WCCg="
 							},
-							"name": "OwnerName"
+							"name": "OwnerName",
+							"type": ""
 						}
 					]
 				}
